@@ -1,0 +1,82 @@
+
+	{
+		
+		"settings": {
+			
+			"game": {
+				"version": "1.6.95",
+				"console": false,
+				"username": "Trick",
+				"difficulty": "Hard",
+				"tutorial-enabled": true,
+				"ui-scale": 1.0,
+				"units": "Terrorist"
+			},
+			
+			"multiplayer": {
+				"-port": 8000,
+				"chat-enabled": true,
+				"server": "EU",
+				"maxping": 100
+			},
+			
+			"graphics": {
+				"video settings": {
+                                        "color mode": "Monitor",
+                                        "aspect ratio": "Widescreen 16:9",
+					"resolution": "1080p",
+					"display mode": "Fullscreen",
+                                        "laptop power savings": "Disabled",
+                                        "global shadow quality": "Low",
+                                        "texture detail": "Low",
+                                        "effect detail": "Low",
+                                        "shader detail": "Low",
+					"gamma value": 50,
+					"multicore rendering-enabled": "Disabled",
+					"texture filtering": "Bilinear",
+					"vertical sync-enabled": "Enabled",
+                                        "motion blur-enabled": "Enabled",
+                                        }
+                                },
+                                
+			"game settings": {
+				"crosshair style": "Default",
+				"crosshair color": "Green",
+				"switch weapon on pick up": "Yes",
+				"always show invetory": "No",
+                                "viewmodel position": "Desktop",
+                                "enable game instructor messages": "Default",
+                                "enable developer console": "Default"
+                                    },
+			
+			"audio settings": {
+				"sound": {
+					"-enabled": true,
+					"master volume": 100,
+                                        "enable voice": "Headphones"
+                                         },
+				"voicechat": {
+					"-enabled": true,
+                                        "enable voice": "Push-to-talk"
+                                            },
+				"subtitles": {
+					"-lang": "EU",
+					"-enabled": true
+                                                }
+                                        },
+			
+			"controls": {
+				"input": "Keyboard and Mouse",
+				"look type": "Normal",
+                                "look stick": "Right-Handed",
+                                "duck mode": "Hold",
+                                "walk mode": "Hold",
+				"sensitivity": {
+					"-horizontal": 100,
+					"-vertical": 100
+                                                }
+                                    }
+		}
+		
+	}
+    

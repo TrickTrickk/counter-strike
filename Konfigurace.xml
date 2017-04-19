@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<counter-strike xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd_hra.xsd">
+    <settings>
+        <game version="1.6.95" console="false">
+            <username>Trick</username>
+            <difficulty>Hard</difficulty>
+            <tutorial enabled="true" />
+            <ui scale="1.0" />
+            <units>Terrorist</units>
+        </game>   
+        <multiplayer port="8000">
+            <chat enabled="true" />
+            <server>EU</server>
+            <maxping>100</maxping>
+        </multiplayer>
+        <graphics>
+            <video_settings>
+                <color_mode>Monitor</color_mode>
+                <aspect_ratio>Widescreen 16:9</aspect_ratio>
+                <resolution>1080p</resolution>
+                <display_mode>Fullscreen</display_mode>
+                <laptop_power_savings>Disabled</laptop_power_savings>
+                <advanced_video_options>
+                    <global_shadow_quality>Low</global_shadow_quality>
+                    <texture_detail>Low</texture_detail>
+                    <effect_detail>Low</effect_detail>
+                    <shader_detail>Low</shader_detail>
+                    <gamma value="50" />
+                    <multicore_rendering>Disabled</multicore_rendering>
+                    <texture_filtering_mode>Bilinear</texture_filtering_mode>
+                    <wait_for_vertical_sync>Enabled</wait_for_vertical_sync>
+                    <motion_blur>Enabled</motion_blur>
+                </advanced_video_options> 
+            </video_settings>
+        </graphics>  
+        <game_settings>
+            <crosshair_style>Default</crosshair_style>
+            <crosshair_color>Green</crosshair_color>
+            <switch_weapon_on_pick_up>Yes</switch_weapon_on_pick_up>
+            <always_show_invetory>No</always_show_invetory>
+            <viewmodel_position>Desktop</viewmodel_position>
+            <enable_game_instructor_messages>Enabled</enable_game_instructor_messages>
+            <enable_developer_console>Enabled</enable_developer_console>
+        </game_settings>     
+        <audio_settings>
+            <sound enabled="true">
+            <master_volume>100</master_volume>
+            <speaker_configuration>Headphones</speaker_configuration>
+            </sound>
+            <voicechat enabled="true">
+                <enable_voice>Push-to-talk</enable_voice>
+            </voicechat>
+            <subtitles lang="EU" enabled="true" /> 
+        </audio_settings>       
+        <controls>
+            <input>Keyboard and Mouse</input>
+            <look_type>Normal</look_type>
+            <look_stick>Right-Handed</look_stick>
+            <duck_mode>Hold</duck_mode>
+            <walk_mode>Hold</walk_mode>
+            <horizontal_sensitivity>100</horizontal_sensitivity>
+            <vertical_sensitivity>100</vertical_sensitivity>            
+        </controls>
+    </settings>  
+</counter-strike>  
